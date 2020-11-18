@@ -168,7 +168,7 @@ body,html{
     -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.50);
     box-shadow: 0 0 20px rgba(48,46,77,0.50);
 }
-.btn{
+.btn,.btn1{
     font-size: 16px;
     font-family: 'Oleo Script', serif;
     font-weight: 500;
@@ -185,6 +185,10 @@ body,html{
     cursor: pointer;
 }
 .btn:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.btn1:hover{
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
@@ -707,6 +711,10 @@ body,html{
 }
 .about .about-content .personal-info .buttons .btn{
     margin-right: 15px;
+    margin-top: 10px;
+}
+.about .about-content .personal-info .buttons .btn1{
+    margin-right: 30px;
     margin-top: 10px;
 }
 .about .about-content .skills{
