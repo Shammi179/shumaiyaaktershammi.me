@@ -1095,7 +1095,7 @@ body,html{
     }
 }
 .portfolio .portfolio-item-inner{
-    border: 6px solid #302e4d;
+    border: 2px solid #302e4d;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
