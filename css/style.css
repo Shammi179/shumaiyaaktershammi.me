@@ -6,7 +6,7 @@
  @import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script&display=swap');
 
-</style>
+
 /*General Style*/
 body{
     margin: 0;
@@ -418,7 +418,7 @@ body,html{
     color: #A5A5A5;
     
 }
-.aside .logo a{}
+/* .aside .logo a{} */
 
 /*Home*/
 .home{
@@ -662,17 +662,14 @@ body,html{
     0%{
         content: 'Student';
     }
-     20%{
+     25%{
         content: 'Learner';
     }
-     40%{
+     50%{
         content: 'Programmer';
     }
-     60%{
-        content: 'Graphics Designer';
-    }
-     80%{
-        content: 'Blogger';
+     75%{
+        content: 'Researcher';
     }
     100%{
         content: 'Explorer';
@@ -1058,6 +1055,9 @@ body,html{
      -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
+
+
 .portfolio .portfolio-item{
     flex: 0 0 33.33%;
     max-width: 33.33%;
